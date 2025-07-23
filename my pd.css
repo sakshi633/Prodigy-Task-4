@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #f8f6f6;
+  color: rgb(10, 7, 7);
+  padding: 40px;
+  text-align: center;
+  text-decoration:underline ;
+}
+nav {
+  background-color: #0a0a0a;
+  color: #fff;
+  padding: 0px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  background: #0a0a0a;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  margin: 50px 0;
+  text-decoration:underline;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: rgb(224, 222, 222);
+  text-decoration:none;
+}
+nav ul li a:hover {
+  color: #dbc608;
+}
+
+section {
+  padding: 40px;
+}
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #04AA6D;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 45%; background-color: #f44336;} /* Red */
+.python {width: 90%; background-color: #d716e9;} /* Dark Grey */
+
+.project {
+  margin-bottom: 20px;
+  border-left: 4px solid #007bff;
+  padding-left: 10px;
+ 
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  
+}
+
+form input, form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #49c4b3;
+}
+
+form button {
+  padding: 10px;
+  background: #0785ec;
+  color: white;
+  border: none;
+  cursor: pointer;
+
+}
+
+form button:hover {
+  background: #0568a1;
+}
+.Lets-Work-Together {
+  text-align: center;
+  margin: 20px 0;
+  border-bottom: #d716e9 2px solid;
+}
+
+footer {
+  background-color: #aa56ad;
+  color: #110d0d;
+  text-align: center;
+  padding: 10px;
+}
